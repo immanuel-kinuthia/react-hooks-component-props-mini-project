@@ -1,6 +1,6 @@
 import React from 'react';
 
-function article({ title, date, content }) {
+function Article({ title, date, content }) {
   return (
     <article>
       <h3>{title}</h3>
@@ -10,4 +10,4 @@ function article({ title, date, content }) {
   );
 }
 
-export default article;
+export default Article;

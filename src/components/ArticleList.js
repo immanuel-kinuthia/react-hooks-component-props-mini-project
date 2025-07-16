@@ -1,6 +1,6 @@
 import React from 'react';
 
-function articleList({ posts }) {
+function ArticleList({ posts }) {
   return (
     <main>
       {posts.map((post) => (
@@ -14,4 +14,4 @@ function articleList({ posts }) {
   );
 }
 
-export default articleList;
+export default ArticleList;

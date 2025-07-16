@@ -1,6 +1,6 @@
 import React from 'react';
 
-function about({ image, about }) {
+function About({ image, about }) {
   return (
     <aside>
       <img src={image || "https://via.placeholder.com/215"} alt="blog logo" />
@@ -9,4 +9,4 @@ function about({ image, about }) {
   );
 }
 
-export default about;
+export default About;
